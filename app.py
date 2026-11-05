@@ -4,7 +4,7 @@ import sys
 import requests
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-4o")
+MODEL = os.getenv("OPENROUTER_MODEL", "openrouter/free")
 
 
 def main():
